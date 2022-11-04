@@ -71,7 +71,7 @@ func connectToDB() *sql.DB {
 			return connection
 		}
 
-		if counts > 10 {
+		if counts > 30 {
 			log.Println(err)
 			return nil
 		}

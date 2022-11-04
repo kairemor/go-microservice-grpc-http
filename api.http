@@ -1,0 +1,10 @@
+POST http://localhost:8081/authenticate 
+Content-Type: application/json
+
+{
+    "email": "admin@example.com",
+    "password": "verysecret"
+}
+
+################################
+GET http://localhost:8081/ping
